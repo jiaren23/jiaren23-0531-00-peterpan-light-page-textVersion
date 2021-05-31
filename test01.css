@@ -1,0 +1,136 @@
+
+    *{
+        position: relative;  
+        font-family: '微軟正黑體';
+        font-weight: 900;
+        letter-spacing: 0.1em;
+    }
+
+    html,body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .lightbox{
+        width: 310px;
+        height: 360px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 130px;
+        /* border: solid 1px red; */
+    }
+
+    .cardbox{
+        width: 310px;
+        /* height: 360px; */
+        background-image: url("dataCardBgc.jpg");
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+           /* border: solid 1px pink; */
+    }
+
+    .img img{
+        width: 310px;
+    }
+
+
+    .content{
+        margin: auto;
+        padding: 0px 5px 5px 5px;
+        /* width: 228px; */
+        text-align: left;
+        /* border: solid 1px blue; */
+    }
+
+    .content .title {
+        display: inline-block;
+        padding: 10px 5px;
+        margin-top: -80px;
+        margin-left: 30px;
+        text-align: left;
+        color: #fff;
+        background-color: #bf9d6d;
+        writing-mode:vertical-lr;
+    
+        /* margin: -50px initial initial 30px; */
+    }
+
+    .content .subtitle{
+        /* line-height:20px;  */
+        font-size: 18px;
+        font-weight: 900;
+        color: #727171;
+    }
+
+    .content p{
+        font-size: 15px;
+        line-height: 20px;
+        color: #727171;
+    }
+
+    .price{
+        /* border: solid 2px orange; */
+        margin-top: 20px;
+        padding: 0 5px;
+        display: flex;
+       
+    }
+
+    .price-list{
+        width: 60%;
+        height: 24px;
+        display: flex;
+        justify-content:flex-end;
+        /* align-items: center;  */
+        font-size: 18px;
+        color: #727171;
+    }
+
+    .count{
+        width: 40%;
+        height: 24px;
+        display: flex;
+        /* border: solid 2px red; */
+        justify-content:flex-end;
+        /* align-items: center; */
+     
+    }
+    .notes{
+        width: 50px;
+        height: 24px;
+        font-size: 16px;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background-color: #bf9d6d;
+        margin-left:3px ;
+        margin-right:3px;
+        text-align: center;
+        /* text-align-last:center; 
+        -webkit-text-align-last: center;
+        -moz-text-align-last: center;
+        -ms-text-align-last: center;  */
+    }
+    /* remove input arrow  - Chrome, Safari, Edge, Opera */
+    .notes[type=number]::-webkit-outer-spin-button,
+    .notes[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* remove input arrow - Firefox */
+    .notes[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    .add img, .less img{
+        width: 24px;
+        height: 24px;
+    }
+
+ 
+
